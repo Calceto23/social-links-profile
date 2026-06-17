@@ -1,4 +1,4 @@
-# Perfil de enlaces sociales
+# Social links profile
 
 Solución al reto [Social Links Profile](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) de Frontend Mentor.
 
