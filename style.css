@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf) format("truetype");
+    font-weight: 100 900;
+}
+
+:root {
+    --hover-color: hsl(75, 94%, 57%);
+    --text-color: hsl(0, 0%, 100%);
+    --background-color: hsl(0, 0%, 8%);
+    --card-color: hsl(0, 0%, 12%);
+    --button-color: hsl(0, 0%, 20%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    gap: 3rem;
+}
+
+.card-container {
+    width: clamp(17rem, 30vw, 22rem);
+    background-color: var(--card-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1.2rem, 2.3vw, 2rem);
+    border-radius: 12px;
+}
+
+img {
+    width: 4.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.3rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+p {
+    font-size: .7rem;
+    color: var(--hover-color);
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+q {
+    font-size:.7rem;
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+}
+
+.links-container {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.link-item {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: var(--button-color);
+    padding: .8rem 0;
+    font-size: .7rem;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.link-item:hover {
+    background-color: var(--hover-color);
+    color: var(--card-color);
+}
+
+.link-item:focus-visible {
+    outline:solid 1px var(--hover-color);
+}
+
+li {
+    margin-bottom: .8rem;
+}
+
+li:last-child{
+    margin-bottom: 0;
+}
+
+.attribution {
+    color: #ddd;
+    font-size: 0.6875rem; text-align: center;
+}
+
+.attribution a {
+    color: #48e;
+}
