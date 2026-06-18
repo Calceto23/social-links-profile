@@ -27,43 +27,44 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--background-color);
-    gap: 3rem;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .card-container {
-    width: clamp(17rem, 30vw, 22rem);
+    width: clamp(18rem, 90vw, 26rem);
     background-color: var(--card-color);
     color: var(--text-color);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: clamp(1.2rem, 2.3vw, 2rem);
+    padding: clamp(1.8rem, 5vw, 2.8rem);
     border-radius: 12px;
 }
 
 img {
-    width: 4.4rem;
+    width: 5.5rem;
     border-radius: 50%;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 h1 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 600;
-    margin-bottom: .5rem;
+    margin-bottom: .4rem;
 }
 
 p {
-    font-size: .7rem;
+    font-size: .8rem;
     color: var(--hover-color);
     font-weight: 600;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1rem;
 }
 
 q {
-    font-size:.7rem;
+    font-size:.8rem;
     font-weight: 400;
-    margin-bottom: 1.3rem;
+    margin-bottom: 1rem;
 }
 
 .links-container {
@@ -78,8 +79,8 @@ q {
     text-decoration: none;
     color: var(--text-color);
     background-color: var(--button-color);
-    padding: .8rem 0;
-    font-size: .7rem;
+    padding: .85rem 0;
+    font-size: .8rem;
     font-weight: 700;
     border-radius: 7px;
 }
@@ -94,7 +95,7 @@ q {
 }
 
 li {
-    margin-bottom: .8rem;
+    margin-bottom: .7rem;
 }
 
 li:last-child{
